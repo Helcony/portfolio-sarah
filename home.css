@@ -1,0 +1,19 @@
+p {
+    margin-bottom: .5rem;
+}
+
+#second-p {
+    font-size: 1.3rem;
+}
+
+#home-span {
+    color: var(--home);
+}
+
+#dev-span {
+    color: var(--dev);
+}
+
+#cyber-span {
+    color: var(--cyber);
+}

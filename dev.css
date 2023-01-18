@@ -1,0 +1,95 @@
+:root {
+    --card-bg: #22243d;
+    --html: #F75421;
+    --css: #254BDD;
+    --js: #EFD81D;
+    --bs: #533A79;
+    --node: #8BBF3D;
+    --sql: #005C84;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5rem;
+    padding-inline: auto;
+}
+
+.card {
+    width: 25rem;
+}
+
+.content {
+    background-color: var(--card-bg);
+    border-radius: 1rem;
+    width: 25rem;
+    margin-top: 3rem;
+}
+
+.content img {
+    width: 100%;
+    border-radius: 1rem 1rem 0rem 0;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 1rem;
+}
+
+.extra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links img{
+    width: 1.9rem;
+}
+
+.langs {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.html {
+    color: black;
+    background-color: var(--html);
+    padding: .5rem;
+    border-radius: 5rem;
+    font-weight: 500;
+}
+
+.css {
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: var(--css);
+    padding: .5rem;
+    border-radius: 5rem;
+    font-weight: 500;
+}
+
+.js {
+    color: black;
+    background-color: var(--js);
+    padding: .5rem;
+    border-radius: 5rem;
+    font-weight: 500;
+}
+
+.bs {
+    color: black;
+    background-color: var(--bs);
+    padding: .5rem;
+    border-radius: 5rem;
+    font-weight: 500;
+}
